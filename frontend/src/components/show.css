@@ -1,0 +1,107 @@
+.list {
+  display: grid;
+  margin : auto;
+  width : fit-content;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 2em;
+}
+
+.postEvent{
+	border: 1px solid;
+	padding: 20px;
+	border-radius: 10px;
+	position:fixed;
+  top:120px;
+	right: 80px;
+	width: 25%;
+	background-color: purple;
+}
+
+.postEvent label{
+	font-size: 18px;
+	margin-top: 15px;
+	color: #ffff80;
+}
+
+.postEvent input{
+	font-size: 18px;
+}
+
+#postSubmit:hover{
+	background-color: black;
+	color: white;
+}
+
+hr{
+	display: block;
+    border: none;
+    height: 5px;
+    background-color: purple;
+    margin: 0px;
+}
+
+table{
+  width: 100%;
+  text-align: center;
+}
+
+table td, th, tr{
+  text-align: right;
+  font-size: 18px;
+  color: black;
+}
+
+table .left{
+  text-align: left;
+}
+
+.trash:hover{
+  color : indigo;
+}
+.flex-gap {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: -12px 0 0 -12px;
+  width: calc(100% + 12px);
+}
+.addEntry label{
+  margin-top: 10px;
+  color: black;
+}
+.complaintLedger{
+  float:left;
+  text-align: left;
+  width:80%;
+  margin-left: 30px;
+}
+
+.special-card {
+  background-color: rgba(245, 245, 245, 1);
+  opacity: .6;
+}
+.textz{
+  margin-left: 10px;
+}
+.nothing-to-show{
+  margin:auto
+}
+.resolvecomplaint{
+  margin:auto;
+  border:1px solid;
+  border-radius: 10px;
+  padding:20px;
+  width:300px;
+}
+.postcomplaint{
+  position:fixed;
+  top:200px;
+  right:10%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+p{
+  color:black;
+  font-size: 18px;
+}
